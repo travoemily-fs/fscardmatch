@@ -1,0 +1,18 @@
+// universal styles
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+// sass colors
+
+$bg: #1c531c;
+$btnFill: #238ab5;
+
+// body styles
+
+body {
+  font-family: "open-sans", sans-serif;
+  background-color: $bg;
+}

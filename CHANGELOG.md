@@ -9,10 +9,11 @@
 **11/08** - initialized sass into project
 **11/08** - added open sans font to project
 **11/08** - basic colors added to sass from style guide
+**11/09** - began and finalized project HTML structure
+**11/09** - began and finalized project CSS styles
+**11/09** - added card types: heart, spade, diamond
 
 ### **CHANGED**
-
-**11/08** - couldn't get live server lite to run properly with npm run start so i deleted all of it's contents from my packages to run my project via live server w/o using run start command on terminal
 
 ### **FIXED**
 

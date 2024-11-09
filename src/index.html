@@ -4,13 +4,84 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- doc title -->
-    <title>Document</title>
+    <title>Assignment: Card Match</title>
     <!-- css link -->
     <link rel="stylesheet" href="styles.css" />
     <!-- hosted fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/zte8mdx.css" />
   </head>
   <body>
+    <!-- begin main -->
+    <main id="mainWrap">
+      <!-- begin header container-->
+      <div id="headerContainer">
+        <!-- begin title section-->
+        <section id="titleSection">
+          <h2>Mix 'n Match!</h2>
+          <p>Match three of a kind before your attempts run out!</p>
+        </section>
+        <!-- end title section-->
+        <!-- begin game counter section-->
+        <section id="counterSection">
+          <h2>Attempts Remaining:</h2>
+        </section>
+        <!-- end game counter section-->
+      </div>
+      <!-- end header container-->
+      <!-- begin game container-->
+      <div id="gameContainer">
+        <div class="card1">
+          <img
+            class="card"
+            src="../src/assets/card-flip-card-image.png"
+            draggable="false"
+            width="388" />
+        </div>
+        <div class="card2">
+          <img
+            class="card"
+            src="../src/assets/card-flip-card-image.png"
+            draggable="false"
+            width="388" />
+        </div>
+        <div class="card3">
+          <img
+            class="card"
+            src="../src/assets/card-flip-card-image.png"
+            draggable="false"
+            width="388" />
+        </div>
+        <div class="card4">
+          <img
+            class="card"
+            src="../src/assets/card-flip-card-image.png"
+            draggable="false"
+            width="388" />
+        </div>
+        <div class="card5">
+          <img
+            class="card"
+            src="../src/assets/card-flip-card-image.png"
+            draggable="false"
+            width="388" />
+        </div>
+        <div class="card6">
+          <img
+            class="card"
+            src="../src/assets/card-flip-card-image.png"
+            draggable="false"
+            width="388" />
+        </div>
+      </div>
+      <!-- end game container -->
+      <!-- begin game footer -->
+      <div id="gameFooter">
+        <h2 class="gameResults">You won!</h2>
+        <button id="button" class="startOver">start over</button>
+      </div>
+      <!-- end game footer -->
+    </main>
+    <!-- end main -->
     <!-- js link -->
     <script src="../dist/index.js" defer></script>
   </body>

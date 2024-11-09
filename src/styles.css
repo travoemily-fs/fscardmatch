@@ -7,6 +7,82 @@
 body {
   font-family: "open-sans", sans-serif;
   background-color: #1c531c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainWrap {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+#headerContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0 20px 0;
+}
+
+#titleSection {
+  color: white;
+}
+#titleSection h2 {
+  font-weight: 800;
+  font-size: 2rem;
+}
+#titleSection p {
+  width: 200px;
+  text-align: left;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+}
+
+#counterSection h2 {
+  text-align: right;
+  margin-right: 10px;
+  color: white;
+  font-size: 1.25rem;
+}
+
+#gameContainer {
+  display: grid;
+  width: 100%;
+  max-width: 600px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+#gameFooter {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+#gameFooter h2 {
+  color: white;
+  font-weight: 800;
+  padding-bottom: 15px;
+}
+#gameFooter button {
+  padding: 10px 20px;
+  background-color: #238ab5;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+#gameFooter button:hover, #gameFooter button:active {
+  background-color: #19607e;
 }
 
 /*# sourceMappingURL=styles.css.map */
